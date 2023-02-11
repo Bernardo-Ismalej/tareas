@@ -1,0 +1,18 @@
+let mes= parseInt(prompt("ingrese un numero de algun mes"))
+if (mes<1 || mes>12)
+  alert("el numero es invalido")
+  if (mes>=1 && mes<=12)
+    alert ("el numero es correcto")
+    if (mes==12 || mes==1 || mes==2){
+       alert("El mes pertenece a la estacion de invierno");
+    }else if(mes>=3 && mes <=5){
+      alert("El mes pertenece a la estacion de primavera");
+  }else if(mes>=6 && mes <=8){
+    alert("El mes pertenece a la estacion de verano");
+  }else if(mes>=9 & mes <=11){
+    alert("El mes pertenece a la estacion de otoño");
+  }
+  let name
+  if (name=(mes>=1 && mes<=12))
+  alert("Bernardo Ismalej Ixcajoc  No. carnet= 23004374")
+  
